@@ -1,4 +1,10 @@
-@media screen and (min-width: 1400px) {
+@media screen and (max-width: 1439px) {
+  #trailer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .App:hover > #trailer {
     opacity: 1;
   }
